@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code for Matsubara | Civic Tech Community</title>
+    <meta name="description" content="Code for Matsubaraは、大阪府松原市のオープンデータを活用し、市民の力で便利なアプリを開発する非営利のシビックテックプロジェクトです。">
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Code for Matsubara",
+      "url": "https://codeformatsubara.org",
+      "description": "松原市のオープンデータを活用するシビックテックコミュニティ",
+      "founder": {
+        "@type": "Person",
+        "name": "丸吉孝文",
+        "jobTitle": "AIエンジニア / 政策スペシャリスト",
+        "url": "https://go2senkyo.com/seijika/182645"
+      }
+    }
+    </script>
+
+    <style>
+        /* ギークなフォントとターミナル風の装飾 */
+        @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Noto+Sans+JP:wght@400;700&display=swap');
+        body { font-family: 'Noto Sans JP', sans-serif; }
+        .font-mono { font-family: 'JetBrains Mono', monospace; }
+        .bg-github-dark { background-color: #0d1117; }
+        .bg-github-card { background-color: #161b22; }
+        .border-github { border-color: #30363d; }
+    </style>
+</head>
+<body class="bg-github-dark text-gray-300 leading-relaxed selection:bg-blue-500 selection:text-white">
+
+    <header class="border-b border-github py-6">
+        <div class="max-w-4xl mx-auto px-4 flex items-center justify-between">
+            <div class="flex items-center space-x-2">
+                <span class="text-green-400 font-mono text-xl">>_</span>
+                <h1 class="text-2xl font-bold text-gray-100 font-mono tracking-tight">Code for Matsubara</h1>
+            </div>
+            <div class="hidden sm:block text-xs font-mono text-gray-500">v1.0.0 / Status: Active</div>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-4 py-12">
+        
+        <section class="mb-14">
+            <h2 class="text-3xl font-bold text-gray-100 mb-4">Update the city with <span class="text-blue-400">Code.</span></h2>
+            <p class="text-gray-400 text-lg mb-6 max-w-2xl">
+                私たちは、松原市のオープンデータを活用し、市民の力で行政をアップデートするシビックテック・プロジェクトです。高額な税金を投じることなく、本当に機能するシステムを自らの手で実装します。
+            </p>
+        </section>
+
+        <section class="mb-14">
+            <div class="flex items-center mb-6 space-x-2">
+                <svg class="w-5 h-5 text-gray-400" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"></path></svg>
+                <h2 class="text-xl font-bold text-gray-200">Projects / Works</h2>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                
+                <div class="bg-github-card border border-github rounded-lg p-5 hover:border-gray-500 transition-colors">
+                    <div class="flex justify-between items-start mb-2">
+                        <a href="https://health-gear.github.io/matsubara-onko-chishin-map/" target="_blank" class="text-blue-400 hover:underline font-bold text-lg">matsubara-onko-chishin-map</a>
+                        <span class="text-xs font-mono border border-green-500 text-green-400 px-2 py-1 rounded-full">Public</span>
+                    </div>
+                    <p class="text-sm text-gray-400 mb-4 h-10">
+                        市のオープンデータ「まつばらいろはかるた」を活用した、子ども向け歴史探索AIマップ。
+                    </p>
+                    <div class="flex items-center text-xs text-gray-500 font-mono space-x-4">
+                        <span class="flex items-center"><span class="w-2 h-2 rounded-full bg-yellow-400 mr-2"></span>JavaScript</span>
+                        <span>⭐ 週末ハッカソン実装</span>
+                    </div>
+                </div>
+
+                <div class="bg-github-card border border-github rounded-lg p-5 border-dashed">
+                    <div class="flex justify-between items-start mb-2">
+                        <span class="text-gray-300 font-bold text-lg">matsubara-council-ai-search</span>
+                        <span class="text-xs font-mono border border-gray-600 text-gray-400 px-2 py-1 rounded-full">In Development</span>
+                    </div>
+                    <p class="text-sm text-gray-500 mb-4 h-10">
+                        松原市議会の膨大な議事録をRAG（検索拡張生成）で解析し、30秒で争点を可視化するAI検索エンジン。
+                    </p>
+                    <div class="flex items-center text-xs text-gray-600 font-mono space-x-4">
+                        <span class="flex items-center"><span class="w-2 h-2 rounded-full bg-blue-500 mr-2"></span>Python / Next.js</span>
+                        <span>🛠 開発中...</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="border-t border-github pt-8 mt-12">
+            <h2 class="text-sm font-mono text-gray-500 uppercase tracking-widest mb-6">Lead Maintainer</h2>
+            <div class="flex items-center space-x-4">
+                <div class="w-12 h-12 rounded-full bg-gray-800 border border-gray-600 flex items-center justify-center text-xl font-bold text-gray-300">
+                    TM
+                </div>
+                <div>
+                    <h3 class="text-gray-200 font-bold">丸吉 孝文 <span class="font-mono text-gray-500 text-sm font-normal ml-1">@TakafumiMaruyoshi</span></h3>
+                    <p class="text-sm text-gray-400 mb-1">松原市在住 / AIエンジニア / 3児の父</p>
+                    <a href="https://go2senkyo.com/seijika/182645" target="_blank" class="text-blue-400 hover:text-blue-300 text-sm font-mono flex items-center group">
+                        <svg class="w-4 h-4 mr-1 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path></svg>
+                        View Official Profile
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="border-t border-github py-8 mt-12 text-center">
+        <p class="text-xs font-mono text-gray-600">
+            &copy; 2026 Code for Matsubara.<br>
+            Built with open data and AI. No tax money was used.
+        </p>
+    </footer>
+
+</body>
+</html>
