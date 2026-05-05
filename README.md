@@ -64,7 +64,7 @@
 
 本プロジェクトは、テクノロジーによる社会課題解決（**Tech for Good**）の理念に賛同する有志の市民エンジニアによって開発・維持されています。
 
-* **Lead Maintainer**: Takafumi Maruyoshi (松原市議会議員 / シビックテックエンジニア)
+* **Lead Maintainer**: Takafumi Maruyoshi (シビックテックエンジニア)
 * **GitHub Profile**: [@health-gear](https://github.com/health-gear)
 
 ---
